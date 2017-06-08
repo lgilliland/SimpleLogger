@@ -7,6 +7,8 @@ A simple pyhon project with an example usage of the python logging library.  The
 * INFO
 * DEBUG
 
+##  Environment
+This was built with Python 2.7.
 
 ##  Logger.py
 ###  Description:
