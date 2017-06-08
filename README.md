@@ -1,6 +1,6 @@
 # Simple Logger
 
-A simple pyhon project with an example usage of the python logging library.  The logging library allows for differernt logging levels to be captured based on a setting within the class.  Onec the logging level is specified, only log entries written at or above that level will actually be written to the log file.  The logging levels are:
+A simple pyhon project with an example usage of the python logging library.  The logging library allows for differernt logging levels to be captured based on a setting within the class.  Once the logging level is specified, only log entries written at or above that level will actually be written to the log file.  The logging levels are:
 * CRITICAL
 * ERROR
 * WARNING
