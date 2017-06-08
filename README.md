@@ -16,16 +16,16 @@ This was built with Python 2.7.
 ##  Logger.py
 ###  Description:
 Allows the calling function to specify a folder, base logfile name, and a logging level for writing to a log file. Supports DEBUG, INFO, WARNING, and ERROR levels of logging.
-        - Attempts to create the folder passed in if it does not already exist.
-        - Appends ".log" to the base name passed in.
-        - Verifies the log_level passed in matches a level in the logging library.
-        - Uses format similar: "06/08/2017 11:59:03 AM: INFO	--- " to precede messages.
-        - Prints all messages to the console - regardless of actual logfile logging level.
+* Attempts to create the folder passed in if it does not already exist.
+* Appends ".log" to the base name passed in.
+* Verifies the log_level passed in matches a level in the logging library.
+* Precedes written messages with a format similar to: "06/08/2017 11:59:03 AM: INFO	--- "
+* Prints all messages to the console - regardless of actual logfile logging level.
 
 ###  Parameters:
-  log_dir:        directory to contain the log file.
-  log_basename:   base name of the desired log file. ".log" will be appended.
-  log_level:      sets the level of logging that is actually written to the log file.
+* log_dir:          directory to contain the log file.
+* log_basename:     base name of the desired log file. ".log" will be appended.
+* log_level:        sets the level of logging that is actually written to the log file.
                     Good candidate to be passed in via optional command line parameter!
                     Required to be one of: 'DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL')
 
