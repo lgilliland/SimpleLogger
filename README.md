@@ -6,6 +6,7 @@ A simple pyhon project with an example usage of the python logging library.  The
 * WARNING
 * INFO
 * DEBUG
+
 Logger.py is a wrapper for the base logging library. It is intended to be an easy-to-use module that can simply be added to your project and called.
 MainScript.py is included as an example that includes and uses the Logger.
 
