@@ -56,7 +56,7 @@ def setupArgs():
     #                     type=int, default=0)  # Required argument example
     parser.add_argument("-l", "--logging",
                         help="logging level to report",
-                        type=str, choices=['debug', 'info', 'warning', 'error'])               # Optional argument
+                        type=str, choices=['debug', 'DEBUG', 'info', 'INFO', 'warning', 'WARNING', 'error', 'ERROR'])   # Optional argument
     return parser.parse_args()
 
 
